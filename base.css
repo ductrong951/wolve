@@ -21,7 +21,12 @@ li{
 }
 a{
     text-decoration: none;
+    color: #fff;
 }
+.login{
+    color: black;
+}
+
 ul{
     display: flex;
     align-items: center;
@@ -68,3 +73,14 @@ h3{
 .background-3{
     background-color: #F7F3FF;
     border-radius: 10px;
+}
+.fa-solid.fa-user{
+    font-size: 18px;
+    position: relative;
+    top: -34px;
+}
+.fa-solid.fa-lock{
+    font-size: 18px;
+    position: relative;
+    top: -34px;
+}

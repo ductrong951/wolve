@@ -1,0 +1,87 @@
+/* Login-register page */
+:root{
+    --white-color: #fff;
+    --black-color: black;
+}
+body{
+    padding: 0;
+    max-width: 100%;
+    margin: 0;
+    background-image: url(./image/background-login.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+a{
+    color: var(--black-color);
+}
+h1{
+    text-align: center;
+    color: #383838;
+    font-size: 32px;
+    font-weight: bold;
+}
+h2{
+    color: #979797;
+    font-size: 13px;
+}
+p{
+    color: var(--black-color);
+}
+.login-register{
+    width: 380px;
+    height: 592px;
+    background-color: #fff;
+    border: none;
+    border-radius: 10px;
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    top: 65px;
+}
+.form-login{
+    width: 100%;
+    
+}
+.login-item{
+    padding: 36px;
+
+}
+.login-input{
+    width: 100%;
+    height: 168px;
+    position: absolute;
+    top: 28%;
+    left: 0;
+    justify-content: center;
+    display: flex; 
+    flex-direction: column;
+    line-height: 36px;
+}
+
+input{
+    border: none;
+    outline: none;
+}
+
+.seperate{
+    padding: 16px 18px;
+    border-bottom: 2px solid #E8E6E8;
+
+}
+.input-login-dashboard{
+    display: flex;
+    flex-direction: column;
+    max-width: 320px;
+    margin: auto;
+}
+.forgetpassword{
+    position: absolute;
+    right: 0;
+    font-size: 13px;
+    padding: 0 30px;
+}
+.button-login{
+    text-align: center;
+}
