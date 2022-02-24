@@ -1,0 +1,124 @@
+.header-menu{
+    width:100%;
+    max-width: 1400px;
+    height: 16vh;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    position: relative;
+}
+
+
+.logo-menu-img{
+    width: 170px;
+    height: 110px;
+    position: absolute;
+    left: -20px;
+}
+
+.menu{
+    display: flex;
+    padding-right: 64px;
+    position: relative;
+    left: -35%;
+    transform: translateX(35%);
+    flex-wrap: wrap;
+}
+li{
+    padding: 0 18px;
+}
+.log-regis{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    left: 105%;
+    cursor:pointer;
+    margin-right: 136px;
+}
+
+.login{ 
+
+}
+.login-button{
+    width: 124px;
+    height: 50px;
+    border-radius: 10px;
+    border: 10px solid transparent;
+    background-color: #fff;  
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+}
+button{
+    cursor: pointer;
+}
+button:hover{
+    opacity: 0.3;
+}
+
+.register{
+
+}
+
+.signup-button{
+    width: 124px;
+    height: 50px;
+    border-radius: 10px ;
+    border: 10px solid transparent;
+    background-color: #ff4848;
+    margin-right: 106px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: #fff;
+    font-weight: 600;
+    text-align: center;
+}
+
+.index{
+    width: 100%;
+    float: right;
+    display: flex;
+    flex-direction: row;
+}
+
+.main-introduction{
+    width: 512px;
+    margin: 64px 0 0 16px;
+}
+.introduction{
+}
+
+.introduction1{
+    display: flex;
+    align-items: center;
+}
+.button-index{
+    width: 144px;
+    height: 50px;
+    background-color: #5F50E4;
+    border: none;
+    border-radius: 10px;
+    margin-right: 18px;
+    color: #D4CBF6;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.button-index:hover{
+    opacity: 0.3;
+}
+
+.information{
+    width: 120px;
+    padding: 0 18px;
+}
+.introduction-img{
+    width: 100%;
+}
+.image-index{
+    width: 107%;
+    height: 100%;
+}
+
+
